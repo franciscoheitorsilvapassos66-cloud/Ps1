@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<iso_project image_name="snake3d.bin" cue_sheet="snake3d.cue">
+  <track type="data">
+    <identifiers system="PLAYSTATION" application="PLAYSTATION"
+                 volume="SNAKE3D" volume_set="SNAKE3D" publisher="HOMEBREW"
+                 data_preparer="PSN00BSDK"/>
+    <!-- sem licença: roda em emuladores (DuckStation etc.) -->
+    <directory_tree>
+      <file name="SYSTEM.CNF" type="data" source="${PROJECT_SOURCE_DIR}/system.cnf"/>
+      <file name="SNAKE3D.EXE" type="data" source="${PROJECT_BINARY_DIR}/snake3d.exe"/>
+      <dummy sectors="1024"/>
+    </directory_tree>
+  </track>
+</iso_project>
